@@ -1,0 +1,17 @@
+.link-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0px;
+} 
+.link-wrapper > div{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+    cursor:pointer;
+}
+.link-wrapper > div:active{
+    transform : scale(0.8);
+}
